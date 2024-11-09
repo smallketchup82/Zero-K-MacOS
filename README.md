@@ -16,7 +16,7 @@ Zero-K is grabbed from the semi-portable itch.io releases and extracted to the d
 ## Instructions
 Make sure you have Parallels Desktop installed on your system. You can download it from [here](https://www.parallels.com/products/desktop/).
 
-1. You can find the virtual machines in the `images` folder of this repository. Download the virtual machine that you want to use and its corresponding checksum file.
+1. You can find the latest virtual machine image [here](https://github.com/smallketchup82/Zero-K-MacOS/releases/latest). Follow the instructions in the release description for extracting it
 2. Open Parallels Desktop and click on `File` -> `Open...` and select the virtual machine that you downloaded.
 3. The virtual machine will now be added to Parallels Desktop. Right click on the package and click on `Open Package`. This will unpack the virtual machine.
 4. Once the virtual machine is unpacked, you can start it by double clicking on the package.
