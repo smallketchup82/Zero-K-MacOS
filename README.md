@@ -9,9 +9,9 @@ Parallels Desktop Ubuntu ARM64 virtual machines with Zero-K pre-installed.
 ## Technical Details
 The virtual machines are built on top of Parallel's Ubuntu ARM64 virtual machine.
 
-For the most part, the virtual machines are stock Ubuntu ARM64 installations with Box64, Box86, and Mono-complete installed.
+For the most part, the virtual machines are stock Ubuntu ARM64 installations with Box64 and Mono-complete installed.
 
-Zero-K is grabbed from the semi-portable itch.io releases and extracted to the desktop. The game is run by doing `mono Zero-K.exe` which will start the game and use Box64 to translate the x86_64 calls to ARM64.
+Zero-K is grabbed from the semi-portable [itch.io](https://zerok.itch.io/zero-k) releases and extracted to the desktop. The game is run by doing `mono Zero-K.exe` which will start the game and use Box64 to translate the x86_64 calls to ARM64.
 
 ## Instructions
 Make sure you have Parallels Desktop installed on your system. You can download it from [here](https://www.parallels.com/products/desktop/).
