@@ -5,6 +5,7 @@ Parallels Desktop Ubuntu ARM64 virtual machines with Zero-K pre-installed.
 - While the repository is named Zero-K-MacOS, it is not limited to MacOS. The steps used to create the virtual machines can be used on any system that runs ARM
 - The launcher will look as though it's not doing anything, and is frozen, but this is fine and just a result of the translation. The game will start eventually, so give it time. Only give up if it's been more than 15 minutes.
 - Steam login support is a WIP. For now its unsupported and it's up to you to get it working.
+- Due to media libraries not being emulated, animated effects (such as bullets, fire, etc.) will not be rendered
 
 ## Technical Details
 The virtual machines are built on top of Parallel's Ubuntu ARM64 virtual machine.
