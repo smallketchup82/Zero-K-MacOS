@@ -26,7 +26,7 @@ Make sure you have Parallels Desktop installed on your system. You can download 
 7. Enjoy playing Zero-K!
 
 ## Manually setting it up
-If you want to set this up outside of a Virtual Machine, don't trust the pre-installed releases, or just want to set it up manually for fun, follow this guide. You need to have Desktop ARM64 Ubuntu already set up and running. I would highly advise using a minimal installation where possible.
+If you want to set this up outside of a Virtual Machine, don't trust the pre-installed releases, or just want to set it up manually for fun, follow this guide. You need to have Desktop ARM64 Ubuntu already set up and running. I would highly advise using a minimal installation where possible, and note that **I have only tested this with Ubuntu 24.04**. If you plan on using a different version, ymmv.
 
 1. Install Box64 using the [pre-compiled binaries](https://github.com/ptitSeb/box64/blob/main/docs/COMPILE.md#pre-build-packages)
 2. Restart your system
