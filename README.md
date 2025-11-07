@@ -29,10 +29,10 @@ Make sure you have Parallels Desktop installed on your system. You can download 
 ## Manually setting it up
 If you want to set this up outside of a Virtual Machine, don't trust the pre-installed releases, or just want to set it up manually for fun, follow this guide. You need to have Desktop ARM64 Ubuntu already set up and running. I would highly advise using a minimal installation where possible, and note that **I have only tested this with Ubuntu 24.04**. If you plan on using a different version, ymmv.
 
-1. Install Box64 using the [pre-compiled binaries](https://github.com/ptitSeb/box64/blob/main/docs/COMPILE.md#pre-build-packages)
+1. Install Box64 using the [pre-compiled binaries](https://github.com/ptitSeb/box64/blob/main/docs/COMPILE.md#pre-build-packages). You can also try [FEX Emulator](https://github.com/FEX-Emu/FEX) for better performance, but I haven't tested this nor gotten it to work.
 2. Restart your system
 3. Download Zero-K from the [itch.io portable releases](https://zerok.itch.io/zero-k)
-4. Run `sudo apt install libsdl2-2.0-0 libopenal1 libcurl4`
-5. To run it you can do `box64 Zero-K.bin.x86_64` in terminal. If this works, **you can stop here**. If it doesn't, keep going.
+4. Run `sudo apt install libsdl2-2.0-0 libopenal1 libcurl4` in a terminal
+5. To run Zero-K, you can run `box64 Zero-K.bin.x86_64` in terminal. Make sure you are in the same directory of the game when running this. If this works, **you can stop here**. If it doesn't, keep going with the guide.
 6. Run `sudo apt install mono-complete libmono-system-windows-forms4.0-cil libcurl4 libmono-system-runtime-serialization4.0-cil libmono-system-net-http4.0-cil libgtk-3-dev`
-7. Try running it with the same command, or try `mono Zero-K.exe`. If both of these fail, you're on your own.
+7. Try running it with the same command as in step 5, or try `mono Zero-K.exe`. If both of these fail, you're on your own from here.
