@@ -15,7 +15,7 @@ For the most part, the virtual machines are stock Ubuntu ARM64 installations wit
 Zero-K is grabbed from the semi-portable [itch.io](https://zerok.itch.io/zero-k) releases and extracted to the desktop. The game is run by doing `box64 Zero-K.bin.x86_64` which will start the game and use Box64 to translate the x86_64 calls to ARM64.
 
 ## Instructions
-Make sure you have Parallels Desktop installed on your system. You can download it from [here](https://www.parallels.com/products/desktop/) (note that unless you find a pirated version, you will need to pay for it).
+Make sure you have Parallels Desktop installed on your system. You can download it from [here](https://www.parallels.com/products/desktop/) (note that unless you find a pirated version, you will need to pay for it). You can also try using [UTM](https://mac.getutm.app/) which is free, and following the manual setup steps if you don't want to pay or pirate Parallels Desktop, although this is unsupported and untested.
 
 1. You can find the latest virtual machine image [here](https://github.com/smallketchup82/Zero-K-MacOS/releases/latest). Follow the instructions in the release description for extracting it
 2. Open Parallels Desktop and click on `File` -> `Open...` and select the virtual machine that you downloaded.
