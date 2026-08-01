@@ -22,7 +22,7 @@ Make sure you have Parallels Desktop installed on your system. You can download 
 3. The virtual machine will now be added to Parallels Desktop. Right click on the package and click on `Open Package`. This will unpack the virtual machine.
 4. Once the virtual machine is unpacked, you can start it by double clicking on the package.
 5. The virtual machine will now boot up. By default the password is `sugondese`. You can change this by running `passwd` in the terminal.
-6. You'll be greeted with the desktop environment. The VM's are distributed infrequently, so the VM images are likely to be heavily outdated. **Make sure you update the VM** by running `sudo apt update` and then `sudo apt upgrade` in a terminal.
+6. You'll be greeted with the desktop environment. The VM's are distributed infrequently, so the VM images are likely to be heavily outdated. <ins>**Make sure you update the VM before playing**</ins> by running `sudo apt update` and then `sudo apt upgrade` in a terminal.
 7. You can now start Zero-K by double clicking on the icon on the desktop. You can read the README file on the desktop for more information, but for the most part it's a copy of this.
 8. Enjoy playing Zero-K!
 
