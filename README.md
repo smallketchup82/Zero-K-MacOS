@@ -2,10 +2,10 @@
 Parallels Desktop Ubuntu ARM64 virtual machines with Zero-K pre-installed.
 
 ## Notes
-- While the repository is named Zero-K-MacOS, it is not limited to MacOS. The steps used to create the virtual machines can be used on any system that runs ARM
+- While the repository is named Zero-K-MacOS, it is not limited to MacOS. The steps used to create the virtual machines can be used on any system that runs ARM.
 - The launcher will look as though it's not doing anything, and is frozen, but this is fine and just a result of the translation. The game will start eventually, so give it time. Only give up if it's been more than 15 minutes.
-- Steam login support is a WIP. For now its unsupported and it's up to you to get it working.
-- Due to media libraries not being emulated, animated effects (such as bullets, fire, etc.) will not be rendered
+- Steam login support is WIP. For now its unsupported and it's up to you to get it working.
+- Due to media libraries not being emulated, animated effects (such as bullets, fire, etc.) and some shaders will not be rendered.
 
 ## Technical Details
 The virtual machines are built on top of Parallel's Ubuntu ARM64 virtual machine.
@@ -15,7 +15,7 @@ For the most part, the virtual machines are stock Ubuntu ARM64 installations wit
 Zero-K is grabbed from the semi-portable [itch.io](https://zerok.itch.io/zero-k) releases and extracted to the desktop. The game is run by doing `box64 Zero-K.bin.x86_64` which will start the game and use Box64 to translate the x86_64 calls to ARM64.
 
 ## Instructions
-Make sure you have Parallels Desktop installed on your system. You can download it from [here](https://www.parallels.com/products/desktop/).
+Make sure you have Parallels Desktop installed on your system. You can download it from [here](https://www.parallels.com/products/desktop/) (note that unless you find a pirated version, you will need to pay for it).
 
 1. You can find the latest virtual machine image [here](https://github.com/smallketchup82/Zero-K-MacOS/releases/latest). Follow the instructions in the release description for extracting it
 2. Open Parallels Desktop and click on `File` -> `Open...` and select the virtual machine that you downloaded.
@@ -23,8 +23,7 @@ Make sure you have Parallels Desktop installed on your system. You can download 
 4. Once the virtual machine is unpacked, you can start it by double clicking on the package.
 5. The virtual machine will now boot up. By default the password is `sugondese`. You can change this by running `passwd` in the terminal.
 6. You'll be greeted with the desktop environment. The VM's are distributed infrequently, so the VM images are likely to be heavily outdated. <ins>**Make sure you update the VM before playing**</ins> by running `sudo apt update` and then `sudo apt upgrade` in a terminal.
-7. You can now start Zero-K by double clicking on the icon on the desktop. You can read the README file on the desktop for more information, but for the most part it's a copy of this.
-8. Enjoy playing Zero-K!
+7. You can now start Zero-K by double clicking on the icon on the desktop. Once again, note that the launcher can take up to 30 minutes to boot into the lobby (although it will typically do so within 5-15 minutes). The point being, if it's updating/launching, be patient, it's not frozen and will boot into the lobby eventually.
 
 ## Manually setting it up
 If you want to set this up outside of a Virtual Machine, don't trust the pre-installed releases, or just want to set it up manually for fun, follow this guide. You need to have Desktop ARM64 Ubuntu already set up and running. I would highly advise using a minimal installation where possible, and note that **I have only tested this with Ubuntu 24.04**. If you plan on using a different version, ymmv.
@@ -36,3 +35,6 @@ If you want to set this up outside of a Virtual Machine, don't trust the pre-ins
 5. To run Zero-K, you can run `box64 Zero-K.bin.x86_64` in terminal. Make sure you are in the same directory of the game when running this. If this works, **you can stop here**. If it doesn't, keep going with the guide.
 6. Run `sudo apt install mono-complete libmono-system-windows-forms4.0-cil libcurl4 libmono-system-runtime-serialization4.0-cil libmono-system-net-http4.0-cil libgtk-3-dev`
 7. Try running it with the same command as in step 5, or try `mono Zero-K.exe`. If both of these fail, you're on your own from here.
+
+## Troubleshooting
+If you're running into some trouble setting this up, or otherwise need help, feel free to open an issue on this GitHub repo or email me at ketchup@smkt.ca
