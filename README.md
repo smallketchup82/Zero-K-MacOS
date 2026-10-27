@@ -1,3 +1,6 @@
+# Deprecation Notice
+This repository is no longer necessary as [ZkMacOS](https://github.com/smallketchup82/ZkMacOS) now exists. Please use that instead.
+
 # Zero-K-MacOS
 Parallels Desktop Ubuntu ARM64 virtual machines with Zero-K pre-installed.
 
